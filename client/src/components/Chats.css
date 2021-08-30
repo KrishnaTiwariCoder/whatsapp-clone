@@ -1,0 +1,72 @@
+.chats {
+  flex: 0.65;
+}
+.chats__header {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 4px 15px;
+  align-items: center;
+}
+.chats__body {
+  height: 80%;
+  flex: 1;
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhIVFRUXFxUXFxcXFxoXFxcXFRcXFxUXFxcYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBwcHGg8HDisZFRkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIATAApgMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAIBABAQEBAAAHAQEAAAAAAAAAAAERAiExQVFhcYHREv/EABUBAQEAAAAAAAAAAAAAAAAAAAAD/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6mzaomonKwwAAoEEqgBhgJqmgIoABCAAoIJi0CqmKCXxFqUA0sICWLDDANTlQAKUDEhpgKYUBdRIuABpgBomguBKAQw0ApKAFIYQEmr5BYCf6VNwnkC0IAKmAAi6CaRfw0DExbUtBcVIoIlqwwE01PJQXExQAwqAoAJJ7EnooAYAAlXQJTBAWxFAUAEAAhqauAKgAhigCfK0CmhoJF1IQFDTAE1YkBYJiggoBhhSAli4lpAXooAUomgshhgACSgun4qABVBIJYoBAAFASwkTnfxQCiaAoAJilAGZWsAKaQCwqVQMAoBioAFpAKKAlCEALAAKQAgFApi6gJigAQwoEKagLYaIC3oKYAKAzasS4vyBgmgFNXDABLAF0AEq0wBDFjQMQWlApgAkUwACVQQhpAIWi6CAWAUpGb/NBtE9F0EtWBoGiRb9AYRFoEKAEMTVA5CRQQDQNFiZ7gQoUFiGFAJRICkoAiwToFISAJTpSAmKIDUCAIBQKAC6mGAGhUBZQwALSQ0EouAAQwBcQASqYBFSKCT3AwDS000CgASAAAAaGF8QDDkBJFwSgWqGgAkgKqUAOg0EaqABYLKCaJPJQTWkoBAwkBLSVQANWAgi4ALrOg0JYAkqpIoBAA0tDQSRfUoAJKtBKsqdRJAWxGgEkW0sUGeWkiWgoaAULACpilAEUADATDVgCLU5WgRCrYBAwgEoi2AEhhoBCUBYIoIBAKACLhAA0LQDQgEEigERQCAAli0AxMWgEVIoICaC6qAEAApBAUomAukEBU6igBSAAJYC0TVBLVUBCgAEoBVSIAolA1ZUICgAqEARaRNBTQgBAAD6UH//2Q==");
+  background-position: center;
+  background-repeat: repeat;
+  padding: 30px;
+  overflow: auto;
+}
+.chats__headerPeopleInfo {
+  flex: 1;
+  padding: 0 15px;
+}
+.chat__message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  background: white;
+  margin-bottom: 30px;
+  float: left;
+  clear: both;
+}
+.chat__sender {
+  background: #dcf8c6;
+  float: right;
+  clear: both;
+}
+.chat__name {
+  position: absolute;
+  top: -17px;
+  left: 5px;
+  font-weight: 700;
+  font-size: small;
+}
+.chat__timestamps {
+  font-size: 12px;
+  margin-left: 15px;
+}
+.chat__footer {
+  display: flex;
+  align-items: center;
+  height: 63px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.chat__footer > form {
+  flex: 1;
+  display: flex;
+  margin: 0 5px;
+}
+.chat__footer > form > input {
+  border-radius: 30px;
+  border: none;
+  flex: 1;
+  outline: none;
+  padding: 10px;
+}
+.chat__footer > form > button {
+  display: none;
+}

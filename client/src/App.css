@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  height: 100vh;
+  /* display: grid; */
+  justify-content: center;
+  align-items: center;
+  background: #dadbd3;
+}
+.app > .app__body {
+  width: 70%;
+  height: 93%;
+  display: flex;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+  background: #ededed;
+  /* min-width: 800px; */
+  min-width: 800px;
+}
